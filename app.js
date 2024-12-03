@@ -29,7 +29,7 @@ $( document ).ready(function() {
 		var url = "";
 		if($('#selectFormulario').val() == "1")
 		{
-			url = "https://GobDocs.github.io/Gob-Docs/Index.html";
+			url = "https://gobs-docs56.github.io/Gobdocs.github.io/Index.html";
 			$('#divCdmx').show();
 			$('#divInveamex').hide();
 			$('#divInvea').hide();
@@ -43,7 +43,7 @@ $( document ).ready(function() {
 		}
 		else if ($('#selectFormulario').val() == "2")
 		{
-			url = "https://GobDocs.github.io/Gob-Docs/Inveamex.html"
+			url = "https://gobs-docs56.github.io/Gobdocs.github.io/Inveamex.html"
 			$('#divInveamex').show();
 			$('#divCdmx').hide();
 			$('#divInvea').hide();
@@ -56,7 +56,7 @@ $( document ).ready(function() {
 		}
 		else if ($('#selectFormulario').val() == "3")
 		{
-			url = "https://GobDocs.github.io/Gob-Docs/Inveacdmx.html"
+			url = "https://gobs-docs56.github.io/Gobdocs.github.io/Inveacdmx.html"
 			$('#divInveamex').hide();
 			$('#divCdmx').hide();
 			$('#divImms').hide();
@@ -69,7 +69,7 @@ $( document ).ready(function() {
 			
 		}
 		else{
-			url = "https://GobDocs.github.io/Gob-Docs/Imms.html"
+			url = "https://gobs-docs56.github.io/Gobdocs.github.io/Imms.html"
 			$('#divInveamex').hide();
 			$('#divCdmx').hide();
 			$('#divInvea').hide();
