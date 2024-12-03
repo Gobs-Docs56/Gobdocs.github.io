@@ -29,7 +29,7 @@ $( document ).ready(function() {
 		var url = "";
 		if($('#selectFormulario').val() == "1")
 		{
-			url = "https://gobs-docs56.github.io/Gobdocs.github.io/Index.html";
+			url = "https://gobs-docs56.github.io/Gobdocs.github.io/cdmx.html";
 			$('#divCdmx').show();
 			$('#divInveamex').hide();
 			$('#divInvea').hide();
